@@ -27,10 +27,14 @@ git clone https://github.com/sde-mull/Get_next_line.git
 
 ```bash
 in your file.c
-#include "Get_next_line/get_next_line.h" //for one file descriptor
-#include "Get_next_line/get_next_line_bonus.h" //for multiple files descriptors
+#include "Get_next_line/get_next_line.h"        //for one file descriptor
+#include "Get_next_line/get_next_line_bonus.h"  //for multiple files descriptors at the same time
 
 then compile with
-gcc file.c Get_next_line/get_next_line.c Get_next_line/get_next_line_utils.c  //for one file descriptor
-gcc file.c Get_next_line/get_next_line_bonus.c Get_next_line/get_next_line_utils_bonus.c //for multiple files descriptors
+gcc file.c Get_next_line/get_next_line.c Get_next_line/get_next_line_utils.c              //for one file descriptor
+gcc file.c Get_next_line/get_next_line_bonus.c Get_next_line/get_next_line_utils_bonus.c  //for multiple files descriptors at the same time
 ```
+<h2>Grade:</h2>
+<img width="1033" alt="image" src="https://user-images.githubusercontent.com/78042197/193090681-2202fc70-39db-4fc3-b433-04fcda43f6b0.png">
+
+
