@@ -10,3 +10,27 @@
 <p align="justified">
   The aim of this project is to create a function that reads from file descriptors and returns line by line everytime is called until the end of the file.
 </p>
+
+<h4>Prototype</h4>
+
+```bash
+char *get_next_line(int fd);
+```
+
+<h2>How to use it</h2>
+<h4>Clone the repository</h4>
+
+```bash
+git clone https://github.com/sde-mull/Get_next_line.git
+```
+<h4>Run your program</h4>
+
+```bash
+in your file.c
+#include "Get_next_line/get_next_line.h" //for one file descriptor
+#include "Get_next_line/get_next_line_bonus.h" //for multiple files descriptors
+
+then compile with
+gcc file.c Get_next_line/get_next_line.c Get_next_line/get_next_line_utils.c  //for one file descriptor
+gcc file.c Get_next_line/get_next_line_bonus.c Get_next_line/get_next_line_utils_bonus.c //for multiple files descriptors
+```
