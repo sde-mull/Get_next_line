@@ -8,5 +8,5 @@
 >**_Reading a line from a fd is way too tedious_**
 
 <p align="justified">
-  The aim of this project is to create a function that reads from file descriptors and will write line by line everytime is called until the end of the file.
+  The aim of this project is to create a function that reads from file descriptors and will return line by line everytime is called until the end of the file.
 </p>
